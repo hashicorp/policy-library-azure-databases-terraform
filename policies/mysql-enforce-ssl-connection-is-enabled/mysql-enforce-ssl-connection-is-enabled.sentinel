@@ -7,7 +7,7 @@ allMYSQLServers = filter tfplan.resource_changes as _, resource_changes {
 			resource_changes.change.actions is ["update"])
 }
 
-print("CIS 4.11: Ensure 'Enforce SSL connection' is set to 'ENABLED' for MySQL Database Server")
+print("Ensure 'Enforce SSL connection' is set to 'ENABLED' for MySQL Database Server")
 
 ssl_enforcement_is_enabled = rule {
 	all allMYSQLServers as _, servers {
