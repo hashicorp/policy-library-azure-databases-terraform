@@ -6,14 +6,14 @@ This library, provides prescriptive Terraform policies that can be used to estab
 >
 > This Policy Library is not an exhaustive list of all of possible security configurations and architecture that is available in Microsoft Azure. If you have questions, comments, or have identified ways for us to improve this library, please create [a new GitHub issue](https://github.com/hashicorp/policy-library-azure-databases-terraform/issues/new/choose).
 >
-> Alternatively, We welcome any contributions that improve the quality of this library! To learn more about contributing and suggesting changes to this library, refer to the [contributing guide](CONTRIBUTING.md).
+> Alternatively, We welcome any contributions that improve the quality of this library! To learn more about contributing and suggesting changes to this library, refer to the [contributing guide](https://github.com/hashicorp/policy-library-azure-databases-terraform/blob/main/CONTRIBUTING.md).
 
 ---
 
 ## Policies included
 
--  Ensure 'Enforce SSL connection' is set to 'ENABLED' for MySQL Database Server ([docs](https://github.com/rclark/policy-library-azure-databases-terraform-policies/blob/main/docs/policies/mysql-enforce-ssl-connection-is-enabled.md) | [code](https://github.com/rclark/policy-library-azure-databases-terraform-policies/blob/main/policies/mysql-enforce-ssl-connection-is-enabled/mysql-enforce-ssl-connection-is-enabled.sentinel))
--  Ensure 'Enforce SSL connection' is set to 'ENABLED' for PostgreSQL Database Server ([docs](https://github.com/rclark/policy-library-azure-databases-terraform-policies/blob/main/docs/policies/psql-enforce-ssl-connection-is-enabled.md) | [code](https://github.com/rclark/policy-library-azure-databases-terraform-policies/blob/main/policies/psql-enforce-ssl-connection-is-enabled/psql-enforce-ssl-connection-is-enabled.sentinel))
+-  Ensure 'Enforce SSL connection' is set to 'ENABLED' for MySQL Database Server ([docs](https://github.com/hashicorp/policy-library-azure-databases-terraform-policies/blob/main/docs/policies/mysql-enforce-ssl-connection-is-enabled.md) | [code](https://github.com/hashicorp/policy-library-azure-databases-terraform-policies/blob/main/policies/mysql-enforce-ssl-connection-is-enabled/mysql-enforce-ssl-connection-is-enabled.sentinel))
+-  Ensure 'Enforce SSL connection' is set to 'ENABLED' for PostgreSQL Database Server ([docs](https://github.com/hashicorp/policy-library-azure-databases-terraform-policies/blob/main/docs/policies/psql-enforce-ssl-connection-is-enabled.md) | [code](https://github.com/hashicorp/policy-library-azure-databases-terraform-policies/blob/main/policies/psql-enforce-ssl-connection-is-enabled/psql-enforce-ssl-connection-is-enabled.sentinel))
 
 
 ---
