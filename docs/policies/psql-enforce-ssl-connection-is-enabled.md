@@ -13,7 +13,7 @@ trace:
       psql-enforce-ssl-connection-is-enabled.sentinel:26:1 - Rule "main"
         Description:
           -------------------------------------------------------------
-          Name:        mysql-enforce-ssl-connection-is-enabled.sentinel
+          Name:        psql-enforce-ssl-connection-is-enabled.sentinel
           Category:    Database
           Provider:    hashicorp/azurerm
           Resource:    azurerm_postgresql_server
@@ -23,10 +23,6 @@ trace:
           the MySQL Database Server
           ------------------------------------------------------------
 
-        Value:
-          true
-
-      psql-enforce-ssl-connection-is-enabled.sentinel:10:1 - Rule "ssl_enforcement_is_enabled"
         Value:
           true
 ```
