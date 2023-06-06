@@ -10,18 +10,10 @@ Enforcing SSL connections between database server and client applications helps 
 ## Policy Result (Pass)
 ```bash
 trace:
-      mysql-enforce-ssl-connection-is-enabled.sentinel:26:1 - Rule "main"
+      mysql-enforce-ssl-connection-is-enabled.sentinel:18:1 - Rule "main"
         Description:
-          -------------------------------------------------------------
-          Name:        mysql-enforce-ssl-connection-is-enabled.sentinel
-          Category:    Database
-          Provider:    hashicorp/azurerm
-          Resource:    azurerm_mysql_server
-          Check:       ssl_enforcement is "Enabled"
-          -------------------------------------------------------------
           Ensure that 'Enforce SSL connection' is set to 'ENABLED' for
           the MySQL Database Server
-          ------------------------------------------------------------
 
         Value:
           true
