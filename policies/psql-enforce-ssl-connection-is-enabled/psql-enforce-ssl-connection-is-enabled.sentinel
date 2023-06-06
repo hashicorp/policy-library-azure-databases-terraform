@@ -13,16 +13,8 @@ ssl_enforcement_is_enabled = rule {
 	}
 }
 
-// -------------------------------------------------------------
-// Name:        psql-enforce-ssl-connection-is-enabled.sentinel
-// Category:    Database
-// Provider:    hashicorp/azurerm
-// Resource:    azurerm_postgresql_server
-// Check:       ssl_enforcement is "Enabled"
-// -------------------------------------------------------------
 // Ensure that 'Enforce SSL connection' is set to 'ENABLED' for
 // the MySQL Database Server
-// ------------------------------------------------------------
 main = rule {
 	ssl_enforcement_is_enabled
 }
